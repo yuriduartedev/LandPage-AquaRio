@@ -1,0 +1,540 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.title {
+  display: inline-block; 
+  font-family: 'Baloo', cursive;
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin-top: 18%;  
+}
+
+.span-trip{
+  text-decoration: underline;
+}
+
+.div-descricao{
+  position: relative;
+  text-align: center!important;
+}
+
+.descricao{
+  font-size: 2.3rem;  
+  top: 50%;
+}
+
+.title-1{
+  color: #eab817;
+}
+
+.descricao-1{
+  color: #eab817;
+}
+
+.title-2{
+  color: #0572ec;
+}
+
+.descricao-2{
+  color: #0572ec;
+}
+
+.title-3{
+  color: #6eb6bb;
+}
+
+.descricao-3{
+  color: #6eb6bb;
+}
+
+.title-4{
+  color: #d67c1b;
+}
+
+.descricao-4{
+  color: #d67c1b;
+}
+
+.title-5{
+  color: #6eb6bb;
+}
+
+.descricao-5{
+  color: #6eb6bb;
+}
+
+.descricao-trip{
+  color: #02af81;
+  text-transform: uppercase;
+  font-size: 4.3rem;
+}
+
+.bg-1{
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+  background-image: url('../images/visitante.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+  top: 94%;
+  right: 0;
+  width: 25%;
+  margin-right: 5%;
+  height: 100px;
+}
+
+.text-title{
+  font-size: 4.5rem;
+  font-family: baloo;
+  color: #0572ec;
+  text-transform: uppercase;
+}
+
+.img-body{
+  width: 100%;
+}
+
+.div-img{
+  margin-bottom: 1rem;
+}
+
+.col-sm-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 1 100%;
+  max-width: 100%;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.title-horarios{
+  display: inline-block;
+  font-family: 'Baloo', cursive;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #eab817;
+  font-size: 6.5rem;
+  margin-top: 0%;
+}
+
+.horario-subtitle{
+  font-size: 2rem;
+  color: #eab817;
+  margin-top: 1rem;
+  font-weight: bolder;
+  font-family: baloo;
+}
+
+.horario-p{
+  font-size: 1.5rem;
+  margin-top: 1%;
+}
+
+.title-food{
+  display: inline-block;
+  font-family: 'Baloo', cursive;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #d67c1b;
+  margin-top: 0%;
+}
+
+.title-chegar{
+  display: inline-block;
+  font-family: 'Baloo', cursive;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #0572ec;
+  margin-top: 0%;
+}
+
+.chegar-subtitle{
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0572ec
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (min-width: 320px) {
+  .text-title {
+    font-size: 1.1rem;
+    font-family: baloo;
+    color: #0572ec;
+    text-transform: uppercase;
+  }
+
+  .descricao-trip {
+    color: #02af81;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+  }
+
+  .title-h1{
+    margin-bottom: 1rem;
+  }
+
+  .div-img{
+    margin-bottom: 1rem;
+    padding-right: 0px;
+    padding-left: 0px;  
+  }
+
+  .section-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1rem;
+  }
+
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .section-3 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1rem;
+  }
+
+  .section-4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .section-5 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1rem;
+  }
+
+  .bg-1{
+    width: 92%;
+    height: 35vh;
+    margin: 20px auto;
+    background-image: url('../images/visitante.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .title {
+    display: inline-block;
+    font-family: 'Baloo', cursive;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-top: 0;
+  }
+
+  .div-descricao{
+    position: relative;
+    text-align: center!important;
+    margin-bottom: 0.5rem;
+  }
+
+  .descricao {
+    font-size: 1rem;
+    top: 50%;
+  }
+  
+  .img-body {
+    width: 100%;
+  }
+
+  .title-horarios {
+    font-size: 2.5rem;
+  }
+
+  .title-food{
+    font-size: 2.5rem;
+  }
+
+  .title-chegar{
+    font-size: 2.3rem;
+  }
+
+  .horario-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .horario-p {
+    font-size: 1rem;
+  }
+
+  .chegar-subtitle{
+    font-size: 1.3rem;
+  }
+}
+
+/* Telefones em paisagem e abaixo */
+@media (min-width: 480px) { 
+  .absolute{
+    position: absolute;
+    top: 93%;
+    right: 0;
+    width: 40%;
+    margin-right: 5%;
+    height: 100px;
+  }
+
+  .title-h1{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .text-title{
+    font-size: 1.6rem;
+    font-family: baloo;
+    color: #0572ec;
+    text-transform: uppercase;
+    text-align: center!important;
+  } 
+
+  .descricao-chegar{
+    font-size: 1rem;
+  }
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (min-width: 768px) {
+  .section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+
+  .div-img{
+    margin-bottom: 1rem;
+  }
+
+  .descricao-trip {
+    color: #02af81;
+    text-transform: uppercase;
+    font-size: 2.1rem;
+  }
+  
+  .text-title {
+    font-size: 2.6rem;
+    color: #0572ec;
+    font-family: baloo;
+    text-transform: uppercase;
+    margin-top: 1rem;
+  }
+
+  .bg-1{
+    width: 92%;
+    height: 35vh;
+    margin: 20px auto;
+    background-image: url('../images/visitante.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .title {
+    display: inline-block;
+    font-family: 'Baloo', cursive;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+
+  .descricao {
+    font-size: 1.3rem;
+    top: 50%;
+  }
+
+  .section-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    align-items: center;
+    margin-left: 5rem!important;
+    margin-bottom: 3rem!important;
+    margin-right: 5rem!important;
+  }
+
+  .section-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 5rem!important;
+    margin-bottom: 3rem!important;
+    margin-right: 5rem!important;
+  }
+
+  .section-3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 5rem!important;
+    margin-bottom: 3rem!important;
+    margin-right: 5rem!important;
+  }
+
+  .section-4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 5rem!important;
+    margin-bottom: 3rem!important;
+    margin-right: 5rem!important;
+  }
+
+  .section-5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 5rem!important;
+    margin-bottom: 3rem!important;
+    margin-right: 5rem!important;
+  }
+
+  .title-horarios {
+    font-size: 4.5rem;
+  }
+
+  .horario-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .horario-p {
+    font-size: 1.5rem;
+  }
+
+  .title-food{
+    font-size: 4.5rem;
+  }
+
+  .title-chegar{
+    font-size: 4.5rem;
+  }
+
+  .descricao-chegar {
+    font-size: 1.3rem;
+  }
+
+  .chegar-subtitle {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .title {
+    display: inline-block;
+    font-family: 'Baloo', cursive;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-top: 20%;
+  }
+
+  .descricao-trip {
+    color: #02af81;
+    text-transform: uppercase;
+    font-size: 3.1rem;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+  .text-title {
+    font-size: 4.3rem;
+    font-family: baloo;
+    color: #0572ec;
+    text-transform: uppercase;
+    margin-top: 4rem;
+  }
+
+  .trip{
+    margin-bottom: 4rem!important;
+  }
+  
+  .descricao {
+    font-size: 2.6rem;
+    top: 50%;
+  }  
+
+  .descricao-chegar{
+    font-size: 2.6rem;
+  }
+
+  .chegar-subtitle {
+    font-size: 3.0rem;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .title {
+    display: inline-block;
+    font-family: 'Baloo', cursive;
+    font-size: 7.5rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-top: 14%;
+  }
+}
