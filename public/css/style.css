@@ -128,9 +128,9 @@ table {
 
 .absolute{
   position: absolute;
-  top: 94%;
+  top: 89%;
   right: 0;
-  width: 25%;
+  width: 40%;
   margin-right: 5%;
   height: 100px;
 }
@@ -210,6 +210,12 @@ table {
   font-weight: bold;
   color: #0572ec
 }
+
+/* .bg-top{
+  background-image: url('../images/head.jpg');
+  background-position: center;
+  background-size: cover;
+} */
 
 /* Telefones em paisagem a tablet em retrato */
 @media (min-width: 320px) {
@@ -329,7 +335,7 @@ table {
 @media (min-width: 480px) { 
   .absolute{
     position: absolute;
-    top: 93%;
+    top: 90%;
     right: 0;
     width: 40%;
     margin-right: 5%;
@@ -356,6 +362,15 @@ table {
 
 /* Telefones em paisagem a tablet em retrato */
 @media (min-width: 768px) {
+  .absolute {
+    position: absolute;
+    top: 90%;
+    right: 0;
+    width: 40%;
+    margin-right: 5%;
+    height: 100px;
+  }
+  
   .section {
     display: flex;
     flex-direction: row;
@@ -479,6 +494,14 @@ table {
 }
 
 @media (min-width: 1024px) {
+  .absolute {
+    position: absolute;
+    top: 89%;
+    right: 0;
+    width: 40%;
+    margin-right: 5%;
+    height: 100px;
+  }
 
   .title {
     display: inline-block;
@@ -536,5 +559,14 @@ table {
     text-transform: uppercase;
     vertical-align: middle;
     margin-top: 14%;
+  }
+
+  .absolute {
+    position: absolute;
+    top: 93%;
+    right: 0;
+    width: 40%;
+    margin-right: 5%;
+    height: 100px;
   }
 }
