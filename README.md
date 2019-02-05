@@ -1,3 +1,3 @@
 # landing-page AquaRio
 
-<img src="images/head-768.jpg"/>
+<img src="https://www.vemproaquario.com.br/images/head-1440.jpg"/>
